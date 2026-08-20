@@ -8,7 +8,7 @@ body {
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: safe center;
     align-items: center;
 
     overflow-x: hidden;
@@ -38,6 +38,15 @@ body {
 
 #container {
     margin-top: -3rem;
+}
+@media (max-width: 600px) {
+    #container {
+        margin-top: 0;
+        text-align: left;
+    }
+    h1 {
+        margin-left: 1rem;
+    }
 }
 
 #card {
