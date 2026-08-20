@@ -1,0 +1,9 @@
+body, #theme-switcher {
+    background-color: white;
+}
+
+#card {
+    color: white;
+    background-color: #4facfe;
+    background-image: linear-gradient(90deg, #4facfe 0%, #00f2fe 100%);
+}

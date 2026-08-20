@@ -1,0 +1,21 @@
+html {
+    scrollbar-color: #888888 #14120e;
+}
+
+body {
+    background-color: #14120e;
+    color: white;
+}
+
+#theme-switcher {
+    background-color: #14120e;
+}
+
+#theme-icon, #github-link {
+    filter: invert();
+}
+
+#card {
+    background-color: #18558b;
+    background-image: linear-gradient(90deg, #18558b 0%, #078188 100%);
+}

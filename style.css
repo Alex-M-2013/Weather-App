@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+    min-height: 100dvh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    overflow-x: hidden;
+    text-align: center;
+}
+
+#theme-switcher {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    margin: 1rem;
+
+    height: 8vh;
+    width: auto;
+
+    cursor: pointer;
+
+    border: none;
+    clip-path: circle(50% at 50% 50%);
+}
+
+#theme-icon {
+    height: 100%;
+    width: 100%;
+}
+
+#container {
+    margin-top: -3rem;
+}
+
+#card {
+    width: 90dvw;
+    max-width: 320px;
+    height: auto;
+    padding: 25px;
+    border-radius: 1.2rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#card img {
+    max-width: 200px;
+    height: auto;
+}
+
+#github-link {
+    height: 75px;
+    width: auto;
+
+    margin: 10px;
+
+    display: flex;
+    align-items: center;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    border-radius: 10px;
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+@media (max-width: 600px) { #github-link { position: static; } }
+
+#github-link:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+#github-link img {
+    height: 75px;
+    width: auto;
+}
