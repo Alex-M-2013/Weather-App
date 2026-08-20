@@ -28,7 +28,6 @@ function getUserLocation() {
             },
 
             {
-                // enableHighAccuracy: true,
                 maximumAge: 0,
             },
         );
