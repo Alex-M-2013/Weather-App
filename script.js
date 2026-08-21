@@ -26,7 +26,7 @@ function getUserLocation() {
             },
 
             {
-                maximumAge: 300000,
+                maximumAge: 900000,
             },
         );
     }
@@ -36,6 +36,8 @@ function fetchWeather() {
     fetch(url)
         .then((response) => response.json())
         .then((data) => {
+            container.innerHTML = "";
+
             const cityName = document.createElement("h1");
             cityName.textContent = `City: ${data.name}`;
 
