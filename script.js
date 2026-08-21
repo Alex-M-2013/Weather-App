@@ -1,8 +1,6 @@
 const container = document.getElementById("container");
 
-const url = new URL("https://api.openweathermap.org/data/2.5/weather");
-url.searchParams.set("units", "metric");
-url.searchParams.set("APPID", API_KEY);
+const url = new URL("https://weather-proxy.alexmach01.workers.dev/");
 getUserLocation();
 
 function getUserLocation() {
