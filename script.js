@@ -26,7 +26,7 @@ function getUserLocation() {
             },
 
             {
-                maximumAge: 0,
+                maximumAge: 300000,
             },
         );
     }
