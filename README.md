@@ -16,3 +16,24 @@
 - Detects user location
 - Light and Dark themes
 - Mobile Friendly
+
+## Running the project
+  
+### Requirements:
+- [NodeJS](https://nodejs.org/en)
+
+### Steps:
+1. Clone the repo:
+```
+git clone https://github.com/Alex-M-2013/MH-Assistant.git
+```
+> If you don't have Git, click the "Code" button at the top and click "Download ZIP" then extract its contents
+2. In the project root, run: 
+```
+npm i
+```
+3. Run the App:  
+```
+npm run dev
+```
+4. View the app at [localhost:5173](http://localhost:5173)
