@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+    --scrollbar-color: auto;
+    --body-bg: #fafafa;
+    --element-bg: #4facfe;
+    --font-colour: #000000;
+    --img-filter: none;
+
+    &[data-theme="dark"] {
+        --scrollbar-color: #888888 #121212;
+        --body-bg: #121212;
+        --element-bg: #18558b;
+        --font-colour: white;
+        --img-filter: invert();
+    }
+}
+
+html {
+    scrollbar-color: var(--scrollbar-color);
+}
+
+body {
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+    min-height: 100dvh;
+
+    background-color: var(--body-bg);
+    color: var(--font-colour);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: safe center;
+    align-items: center;
+
+    overflow-x: hidden;
+    text-align: center;
+}
+
+#card-container {
+    margin-top: -3rem;
+
+    @media (max-width: 600px) {
+        margin-top: 0;
+        text-align: left;
+    }
+}

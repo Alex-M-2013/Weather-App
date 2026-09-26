@@ -3,23 +3,12 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-        <title>Weather App</title>
-        <link rel="stylesheet" href="style.css" />
-        <link id="theme-link" rel="stylesheet" href="themes/light-theme.css" />
+        <title>Weather</title>
     </head>
     <body>
-        <button id="theme-switcher" onclick="switchTheme()">
-            <img id="theme-icon" src="images/sun.svg" alt="Sun" />
-        </button>
-
-        <div id="container"></div>
-
-        <a href="https://github.com/Alex-M-2013" id="github-link">
-            <img src="images/github.png" />
-        </a>
-
-        <script src="helper.js"></script>
-        <script src="script.js"></script>
-        <script src="theme-switcher.js"></script>
+        <div id="root">
+            <noscript>You need to enable JavaScript to run this App.</noscript>
+        </div>
+        <script type="module" src="/src/main.jsx"></script>
     </body>
 </html>

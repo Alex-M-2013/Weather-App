@@ -1,0 +1,23 @@
+#theme-switcher {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    background-color: var(--body-bg);
+    color: var(--font-colour);
+
+    margin: 1rem;
+    margin-top: 2rem;
+
+    height: 8vh;
+    width: auto;
+
+    border: none;
+    clip-path: circle(50% at 50% 50%);
+}
+
+#theme-icon {
+    height: 100%;
+    width: 100%;
+    filter: var(--img-filter);
+}
