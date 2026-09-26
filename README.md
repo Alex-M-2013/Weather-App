@@ -1,11 +1,18 @@
-# Weather App
+<div align="center">
+  
+  # Weather App
 
-A simple web weather app made with React. <br>
-Uses the [OpenWeather API](https://openweathermap.org/) and the Browser [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+  <img src="https://deploy-badge.vercel.app/vercel/alex-m-weather-app?style=for-the-badge" alt="Vercel Deploy"><br>
+  <img src="https://img.shields.io/github/languages/top/Alex-M-2013/Weather-App?style=for-the-badge&logo=javascript" alt="Top Language">
+  <img src="https://img.shields.io/github/repo-size/Alex-M-2013/Weather-App?style=for-the-badge&logo=github" alt="Repo Size">
 
-__Link:__ https://alex-m-weather-app.vercel.app/
+  A simple web weather app made with React. <br> 
+  Uses the [OpenWeather API](https://openweathermap.org/) and the Browser [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
-Features: 
+  __Link:__ https://alex-m-weather-app.vercel.app/
+</div>
+
+## Features 
 - Detects user location
 - Light and Dark themes
 - Mobile Friendly
