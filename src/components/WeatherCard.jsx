@@ -11,7 +11,7 @@ export const WeatherCard = () => {
         const url = new URL("https://weather-proxy.alexmach01.workers.dev/");
 
         function fetchWeather(url) {
-            fetch(url, { headers: { "App-Token": import.meta.env.VITE_APP_TOKEN } })
+            fetch(url, { headers: { "App-Token": import.meta.env.APP_TOKEN } })
                 .then((r) => {
                     if (!r.ok) throw new Error(`Request failed with status ${r.status}`);
                     return r.json();
