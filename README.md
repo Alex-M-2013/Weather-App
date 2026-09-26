@@ -3,6 +3,7 @@
   # Weather App
 
   <img src="https://deploy-badge.vercel.app/vercel/alex-m-weather-app?style=for-the-badge" alt="Vercel Deploy"><br>
+  <img src="https://img.shields.io/badge/MADE%20WITH-REACT-61DAFB?style=for-the-badge&logo=react" alt="Made with React">
   <img src="https://img.shields.io/github/languages/top/Alex-M-2013/Weather-App?style=for-the-badge&logo=javascript" alt="Top Language">
   <img src="https://img.shields.io/github/repo-size/Alex-M-2013/Weather-App?style=for-the-badge&logo=github" alt="Repo Size">
 
