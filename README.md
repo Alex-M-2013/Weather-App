@@ -37,3 +37,6 @@ npm i
 npm run dev
 ```
 4. View the app at [localhost:5173](http://localhost:5173)
+
+## Credits
+__Loader from:__ https://github.com/vineethtrv/css-loader

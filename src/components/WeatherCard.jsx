@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import Toastify from "toastify-js";
 import "toastify-js/src/toastify.css";
 import { capitalise } from "../utils/helper";
+import { Loader } from "./Loader";
 
 export const WeatherCard = () => {
     const [weatherData, setWeatherData] = useState(null);
@@ -56,7 +57,7 @@ export const WeatherCard = () => {
 
     return (
         <>
-            {weatherData && (
+            {weatherData ? (
                 <>
                     <h1>City: {weatherData.name}</h1>
                     <div id="weather-card">
@@ -80,6 +81,8 @@ export const WeatherCard = () => {
                         </p>
                     </div>
                 </>
+            ) : (
+                <Loader />
             )}
         </>
     );
